@@ -1,0 +1,9 @@
+<p
+  appBasicDirective
+  (currentTime)="onTimeUpdate($event)"
+  defaultColor="grey"> This is a directive, last updated at {{ currentTime }} </p>
+
+<p
+  appBasicDirective
+  (currentTime)="onTimeUpdate($event)"
+  [defaultColor]="'lightblue'"> This is another directive wit, last updated at {{ currentTime }} </p>
