@@ -1,0 +1,19 @@
+.dockerignore
+./log
+./tmp
+package.lock.json
+.git
+*Dockerfile*
+*docker-compose*
+node_modules
+
+
+docker container rm -f c3338607a0eb
+docker container rm -f cecaef050487
+docker container rm -f 1470f5e5b8c5
+docker container rm -f 2ed1355d797a
+docker container rm -f 8254d3210ba2
+docker container rm -f 6dea9f4cd539
+docker container rm -f 49d222b5e153
+docker container rm -f 1907955abf71
+docker container rm -f 5ac1977ef461
