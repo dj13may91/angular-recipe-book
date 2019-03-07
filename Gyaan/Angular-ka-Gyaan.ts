@@ -1,13 +1,49 @@
 /**
  Installations:
 
+ -> node -v
+ -> npm -v
+ -> npm init -> generates package.json
+ now install webpack:
+ -> npm install webpack --save-dev
+ save-dev saves it in dependencies in package.json
+
+ to install all the dependencies of package.json, run:
+ -> npm install (by going to the folder of package.json)
+
+ to create a local server, install:
+ -> npm install live-server --global
+
+ --global saves them for to be able to access from anywhere in the computer
+
+ to create a bundle of js, run:
+ -> npm run dev
+
+ whenever we save our code to load page automatically and create a bundle, we install:
+ -> npm install webpack-dev-server --save-dev
+
+ to auto update html files in dist folder we install:
+ -> npm install html-webpack-plugin --save-dev
+
+ Installing babel
+ -> npm install babel-core babel-loader babel-preset-env --save-dev
+
+ babel-loader to load all types of files, convert es6 to es5 code, SASS to CSS
+
+ Somethings like Promises, Arrays.from , etc were not present in ES5, so inorder to make them work we install:
+ -> npm install babel-polyfill --save
+
+ 😒FETCH is new and might not be recognised by old browsers, so alternate to that is axios
+ npm install axios --save
+
  export NODE_EXTRA_CA_CERTS=~/Desktop/DIVYA.JAIN/zscaler.pem
+
  npm install -g @angular/cli@latest
  Creating new Project ----> ng new my-app-name
  run using: ng serve
 
- npm install bootstrap@3 --save
- to add it in application: got to angular.json > "styles"
+ 😒npm install bootstrap@3 --save
+ to add it in application: goto angular.json > "styles"
  add: "/node_modules/bootstrap/dist/css/bootstrap.css"
  npm install ---> to generate project dependencies from package.json
 
@@ -461,5 +497,3 @@
   onGetData(){ //similar as onAddData() }
 
  */
-
-
